@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avakin Life - My Profile</title>
+    <style>
+        /* Estilização Geral */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3); /* Cores vibrantes estilo Avakin */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Container Principal */
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        /* Foto de Perfil (Circular) */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h1 { font-size: 24px; margin-bottom: 5px; }
+        p { margin-bottom: 20px; opacity: 0.9; }
+
+        /* Estilo dos Botões */
+        .link-button {
+            display: block;
+            background-color: white;
+            color: #333;
+            text-decoration: none;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .link-button:hover {
+            transform: scale(1.05);
+            background-color: #f0f0f0;
+        }
+
+        /* Destaque para o Instagram */
+        .insta-btn {
+            background-color: #E1306C;
+            color: white;
+        }
+
+        .friend-code {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+            font-family: monospace;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Minha Avatar" class="profile-pic">
+        
+        <h1>Seu Nome no Avakin</h1>
+        <div class="friend-code">Código de Amigo: XXX-XXX</div>
+        
+        <p>Bem-vindo ao meu mundo virtual! 🌟</p>
+
+        <a href="https://instagram.com/SEU_USER" class="link-button insta-btn" target="_blank">Siga no Instagram</a>
+        <a href="#" class="link-button">Meu Closet no Avakin</a>
+        <a href="#" class="link-button">Último Vídeo/Post</a>
+        <a href="#" class="link-button">Minhas Casas Decoradas</a>
+    </div>
+
+</body>
+</html>
